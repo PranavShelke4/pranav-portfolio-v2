@@ -1,0 +1,10 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+.projects {
+  @include sectionStyles(even);
+
+  .heading {
+    text-align: center;
+  }
+}

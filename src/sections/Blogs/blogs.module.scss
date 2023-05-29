@@ -1,0 +1,27 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+.blogs {
+  @include sectionStyles(odd);
+
+  .heading {
+    margin-bottom: $margin-medium;
+  }
+
+  &__list {
+    list-style: none;
+    background-color: $color-slate-dark-5;
+    border-radius: $radius-small;
+    box-shadow: $shadow-subtle;
+    overflow: hidden;
+
+    @include theme(dark) {
+      background-color: $color-slate-dark-5;
+    }
+    &__action{
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+    }
+  }
+}
