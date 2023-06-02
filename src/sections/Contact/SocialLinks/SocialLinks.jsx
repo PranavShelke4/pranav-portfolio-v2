@@ -5,7 +5,7 @@ export default function SocialLinks() {
   return (
     <div className={classes.social}>
       <a
-        href='mailto:prathmesh101dhatrak@gmail.com'
+        href='mailto:pranavshelke4@gmail.com'
         target={'_blank'}
         className='icon'
         rel='noreferrer'
@@ -13,7 +13,7 @@ export default function SocialLinks() {
         &#xe910;
       </a>
       <a
-        href='https://github.com/Prathmesh-Dhatrak'
+        href='https://github.com/PranavShelke4'
         target={'_blank'}
         className='icon'
         rel='noreferrer'

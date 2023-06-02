@@ -13,8 +13,8 @@ export default function Hero() {
           Hi, there it's me
         </h5>
         <h1 className={classes.hero__name}>
-          <span className={classes.emphasize}>Prathmesh</span>
-          <span> Dhatrak</span>
+          <span className={classes.emphasize}>Pranav</span>
+          <span> Shelke</span>
         </h1>
         <h2 className={classes.info}>
           I like building things on the web.
@@ -27,15 +27,15 @@ export default function Hero() {
       </div>
 
       <div role='img' className={classes.waterMark}>
-        (PD)
+        (PS)
       </div>
 
       <div className={classes.quickContact}>
-        <Link to='mailto:prathmesh101dhatrak@gmail.com' lone>
-          prathmesh101dhatrak@gmail.com
+        <Link to='mailto:pranavshelke4@gmail.com' lone>
+          pranavshelke4@gmail.com
         </Link>
-        <Link to='https://github.com/Prathmesh-Dhatrak' lone>
-          github.com/Prathmesh-Dhatrak
+        <Link to='https://github.com/PranavShelke4' lone>
+          github.com/PranavShelke4
         </Link>
       </div>
     </section>

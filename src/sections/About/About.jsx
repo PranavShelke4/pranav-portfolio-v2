@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './about.module.scss';
 import Fade from 'react-reveal/Fade';
 
-import { PrathmeshSmall, PrathmeshMedium, PrathmeshLarge } from 'images/Prathmesh';
+import { PrathmeshSmall, PrathmeshMedium, PrathmeshLarge } from 'images/Pranav';
 import { Link } from 'components';
 import Skills from './Skills';
 import SocialLinks from '../Contact/SocialLinks';

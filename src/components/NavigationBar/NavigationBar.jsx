@@ -81,7 +81,7 @@ export default function NavigationBar() {
                   Projects
                 </a>
               </li>
-              <li className={classes.nav__item}>
+              {/* <li className={classes.nav__item}>
                 <a
                   className={classes.nav__link}
                   onClick={handleHamClose}
@@ -89,7 +89,7 @@ export default function NavigationBar() {
                 >
                   Blogs
                 </a>
-              </li>
+              </li> */}
               <li className={classes.nav__item}>
                 <a
                   className={classes.nav__link}
@@ -116,7 +116,7 @@ export default function NavigationBar() {
             </ul>
           </div>
 
-          <Button link='https://drive.google.com/file/d/1Sf1Wg0NHBFhLXR6EQzVUV_feZoc4Gfrp/view?usp=sharing'>
+          <Button link='https://drive.google.com/file/d/1bXNyWtj7BgxyskAXf_zx6TDpemVHJzus/view?usp=share_link'>
             Resume
           </Button>
         </div>

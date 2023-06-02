@@ -1,4 +1,3 @@
-import { SecuferLogo, SecuferDashboard } from '../../images/Secufer';
 import {
   friendsDriveImageSmall,
   friendsDriveImageLarge,
@@ -8,82 +7,85 @@ import {
   TowMeterSquareLogo,
   TowMeterSquareMobile
 } from '../../images/TowMeterSquare';
-import { FriendZone, FriendZoneLogo } from '../../images/FriendZone';
-import { Cinemagram, CinemagramLogo } from '../../images/Cinemagram';
 
-const cinemagram = {
-  title: 'Cinemagram - Community platform',
+import { YashdentalImg, YCDCLogo } from '../../images/Ycdental';
+import { PeerTECHimg, PeerTECHLogo } from '../../images/PeerTECH';
+import { TEDxVITimg, TEDxVITLogo } from '../../images/TEDxVIT';
+
+
+const TEDxVIT = {
+  title: 'TEDxVIT - club website',
   type: 'Collaborated project',
-  logo: CinemagramLogo,
+  logo: TEDxVITLogo,
   images: {
-    light: { small: Cinemagram, large: Cinemagram },
-    dark: { small: Cinemagram, large: Cinemagram }
+    light: { small: TEDxVITimg, large: TEDxVITimg },
+    dark: { small: TEDxVITimg, large: TEDxVITimg }
   },
   description:
-    'Cinemagram is social media for cinema buffs where people can connect with other movie fans discussing films, movies and TV series.',
+    'Our goal was to create a website that embodies the values of the TEDxVIT club and provides a captivating experience for our audience. ',
   features: [
-    'Login and Registration',
-    'Notification',
-    'Private messaging',
-    'Post CRUD functionality',
-    'Comment feature',
-    'Profile customization',
-    'Followers/Following feature',
-    'Search feature'
+    'Event Registration',
+    'Newsletter subscription',
+    'Access to past event information',
+    'Gallery of past evente',
+    'Information on previous TEDxVIT CC',
+    'responsive, and visually appealing'
   ],
   techStack: [
-    'React/TypeScript',
-    'Node',
-    'MongoDB',
-    'Redux'
+    'NextJS',
+    'Docker',
+    'SCSS'
   ],
-  link: 'https://cinemagram.prathmeshdhatrak.com/',
-  repo: 'https://github.com/Prathmesh-Dhatrak/cinemagram'
+  link: 'http://tedxvitpune.in/',
+  repo: 'https://github.com/Aryan-Jagadale/tedxweb2023'
 };
 
-const secufer = {
-  title: 'Secufer - Android app',
+
+const ycdental = {
+  title: 'Yashdental - Collage Website',
   type: 'Collaborated project',
-  logo: SecuferLogo,
+  logo: YCDCLogo,
   images: {
-    light: { small: SecuferDashboard, large: SecuferDashboard },
-    dark: { small: SecuferDashboard, large: SecuferDashboard }
+    light: { small: YashdentalImg, large: YashdentalImg },
+    dark: { small: YashdentalImg, large: YashdentalImg }
   },
   description:
-    'Secufer is a escrow service mobile application for freelancers who want to do safe online transactions with their clients.',
+    'We developed a website for Shri Yashwantaro Chavan Dental College, enabling easy content management and seamless document storage.',
+  features: [
+    'User-friendly interface',
+    'Easy content management',
+    'Seamless document storage',
+    'Page Password Protected',
+    'Responsive layout'
+  ],
+  techStack: ['React', 'SCSS', 'WordPress', 'Figma UI'],
+  link: 'https://yashdental.org/'
+};
+
+
+
+const PeerTech = {
+  title: 'PeerTECH - Admin Dashbord',
+  type: 'Dashbord project',
+  logo: PeerTECHLogo,
+  images: {
+    light: { small: PeerTECHimg, large: PeerTECHimg },
+    dark: { small: PeerTECHimg, large: PeerTECHimg }
+  },
+  description:
+    'The Admin and Super Admin Dashboard project, built with MERN stack and Firebase offers administrators and super administrators a user-friendly interface to manage app and website content.',
   features: [
     'Login and Registration',
-    'User profile customization',
-    'Transactions create/accept links',
-    'Authenticating transactions',
-    'Connecting users on whatsApp'
-  ],
-  techStack: ['React Native', 'REST API', 'WhatsApp Business API', 'Figma UI'],
-  link: 'https://secuferapp-landing.vercel.app/',
-  repo: 'https://github.com/secufer/serufer-app'
-};
-
-const friendsZone = {
-  title: 'Friend Zone - Chat Web Application',
-  type: 'Featured project',
-  logo: FriendZoneLogo,
-  images: {
-    light: { small: FriendZone, large: FriendZone },
-    dark: { small: FriendZone, large: FriendZone }
-  },
-  description:
-    'A fun and easy to use chat room or workspace where friends can share resources and hang around.',
-  features: [
-    'Login and Registration with Google',
-    'Rooms/Group CRUD functionality',
-    'Realtime group messaging',
+    'Content CRUD functionality',
+    'Admin & User Add/Delete Option',
     'Realtime resources sharing',
-    'Emoji reaction on messages'
+    'Role Upation Option'
   ],
   techStack: ['React JS', 'Firebase', 'Material UI', 'React Icons'],
-  link: 'https://friends-zone.prathmeshdhatrak.com/',
-  repo: 'https://github.com/Prathmesh-Dhatrak/friend-zone'
+  link: 'https://dpsnorway.netlify.app/'
 };
+
+
 
 const friendsDrive = {
   title: 'Friend Drive - Resources storing app',
@@ -130,6 +132,6 @@ const towMeterSquare = {
   repo: 'https://github.com/Prathmesh-Dhatrak/client'
 };
 
-const data = [cinemagram, secufer, friendsZone, towMeterSquare, friendsDrive];
+const data = [TEDxVIT, ycdental, PeerTech, towMeterSquare, friendsDrive];
 export default data;
 
