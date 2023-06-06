@@ -1,13 +1,10 @@
-import {
-  friendsDriveImageSmall,
-  friendsDriveImageLarge,
-  friendsDriveLogo
-} from '../../images/FriendDrive';
-import {
-  TowMeterSquareLogo,
-  TowMeterSquareMobile
-} from '../../images/TowMeterSquare';
+// import {
+//   friendsDriveImageSmall,
+//   friendsDriveImageLarge,
+//   friendsDriveLogo
+// } from '../../images/DigitalPeerSupport';
 
+import { ITMSImg, ITMSLogo } from '../../images/ITMS';
 import { YashdentalImg, YCDCLogo } from '../../images/Ycdental';
 import { PeerTECHimg, PeerTECHLogo } from '../../images/PeerTECH';
 import { TEDxVITimg, TEDxVITLogo } from '../../images/TEDxVIT';
@@ -43,7 +40,7 @@ const TEDxVIT = {
 
 const ycdental = {
   title: 'Yashdental - Collage Website',
-  type: 'Collaborated project',
+  type: 'Collaborated & Freelance project',
   logo: YCDCLogo,
   images: {
     light: { small: YashdentalImg, large: YashdentalImg },
@@ -66,7 +63,7 @@ const ycdental = {
 
 const PeerTech = {
   title: 'PeerTECH - Admin Dashbord',
-  type: 'Dashbord project',
+  type: 'Freelance Dashbord project',
   logo: PeerTECHLogo,
   images: {
     light: { small: PeerTECHimg, large: PeerTECHimg },
@@ -86,52 +83,51 @@ const PeerTech = {
 };
 
 
-
-const friendsDrive = {
-  title: 'Friend Drive - Resources storing app',
-  type: 'Featured project',
-  logo: friendsDriveLogo,
+const ITMS = {
+  title: 'ITMS - Collage ERP System Website',
+  type: 'Collaborated & Sponsored project',
+  logo: ITMSLogo,
   images: {
-    light: { small: friendsDriveImageSmall, large: friendsDriveImageLarge },
-    dark: { small: friendsDriveImageSmall, large: friendsDriveImageLarge }
-  },
-  description: 'A fun and easy to use drive space where you can store photos.',
-  features: [
-    'Easy SignIn with Google',
-    'Upload multiple Photos',
-    'Create new Album',
-    'Delete Photos / Albums',
-    'Download Photos'
-  ],
-  techStack: ['React JS', 'Firebase', 'Material UI', 'Redux'],
-  repo: 'https://github.com/Prathmesh-Dhatrak/friend-drive'
-};
-
-const towMeterSquare = {
-  title: 'Two Meter Square - MERN stack e-commerce website',
-  type: 'Collaborated project',
-  logo: TowMeterSquareLogo,
-  images: {
-    light: { small: TowMeterSquareMobile, large: TowMeterSquareMobile },
-    dark: { small: TowMeterSquareMobile, large: TowMeterSquareMobile }
+    light: { small: ITMSImg, large: ITMSImg },
+    dark: { small: ITMSImg, large: ITMSImg }
   },
   description:
-    'The Ecommerce website for TowMeterSquare Shop. Built with React.',
+    'The College ERP System website is designed for Government Polytechnic Awasari College. It is built using the MERN stack.',
   features: [
-    'Search products',
-    'User Login and Registration System',
-    'Admin Dashboard',
-    'Categories CRUD',
-    'Payment with Stripe',
-    'Star Rating System',
-    'Multiple Image Uploads',
-    'Products CRUD'
+    'HOD, Class Teacher, Subject Teacher Login System',
+    'HOD can see all faculty data',
+    'HOD can reject or approve leaves',
+    'Class Teacher can assign subjects to Subject Teachers',
+    'Class Teacher can manage all classroom data',
+    'Subject Teacher can manage their assigned subject data',
+    'Multiple images, PDFs, and files can be uploaded'
   ],
-  techStack: ['React JS', 'Redux', 'Firebase', 'MongoDB'],
-  link: 'https://twometersquare.netlify.app/',
-  repo: 'https://github.com/Prathmesh-Dhatrak/client'
+  techStack: ['React JS', 'Redux', 'NodeJS', 'MongoDB', 'Figma'],
+  repo: 'https://github.com/Avadhut-Shedage/ITMS-NEW'
 };
 
-const data = [TEDxVIT, ycdental, PeerTech, towMeterSquare, friendsDrive];
+
+// const DigitalPeerSupport = {
+//   title: 'Friend Drive - Resources storing app',
+//   type: 'Featured project',
+//   logo: friendsDriveLogo,
+//   images: {
+//     light: { small: friendsDriveImageSmall, large: friendsDriveImageLarge },
+//     dark: { small: friendsDriveImageSmall, large: friendsDriveImageLarge }
+//   },
+//   description: 'A fun and easy to use drive space where you can store photos.',
+//   features: [
+//     'Easy SignIn with Google',
+//     'Upload multiple Photos',
+//     'Create new Album',
+//     'Delete Photos / Albums',
+//     'Download Photos'
+//   ],
+//   techStack: ['React JS', 'Firebase', 'Material UI', 'Redux'],
+//   repo: 'https://github.com/Prathmesh-Dhatrak/friend-drive'
+// };
+
+
+const data = [TEDxVIT, ycdental, PeerTech, ITMS];
 export default data;
 
