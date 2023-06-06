@@ -21,7 +21,7 @@ export default function SocialLinks() {
         &#xe908;
       </a>
       <a
-        href='https://twitter.com/Prathmesh007_SD'
+        href='https://twitter.com/_PranavShelke'
         target={'_blank'}
         className='icon'
         rel='noreferrer'
@@ -29,7 +29,7 @@ export default function SocialLinks() {
         &#xe912;
       </a>
       <a
-        href='https://www.linkedin.com/in/prathmeshsd/'
+        href='https://www.linkedin.com/in/pranav-shelke/'
         target={'_blank'}
         className='icon'
         rel='noreferrer'
@@ -37,7 +37,7 @@ export default function SocialLinks() {
         &#xe90a;
       </a>
       <a
-        href='https://www.instagram.com/prathmesh007world/'
+        href='https://www.instagram.com/_pranav__shelke_/'
         target={'_blank'}
         className='icon'
         rel='noreferrer'

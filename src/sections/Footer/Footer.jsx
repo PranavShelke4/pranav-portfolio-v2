@@ -10,7 +10,7 @@ export default function Footer() {
         <SocialLinks />
       </div>
       <span className={classes.colorize}>Designed</span> and <span className={classes.colorize}>built</span> <br />
-      by Prathmesh Dhatrak
+      by Pranav Shelke
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './about.module.scss';
 import Fade from 'react-reveal/Fade';
 
-import { PrathmeshSmall, PrathmeshMedium, PrathmeshLarge } from 'images/Pranav';
+import { Pranav } from 'images/Pranav';
 import { Link } from 'components';
 import Skills from './Skills';
 import SocialLinks from '../Contact/SocialLinks';
@@ -63,9 +63,9 @@ export default function About() {
             <figure className={classes.profile}>
               <img
                 className={classes.image}
-                alt='Prathmesh'
-                src={PrathmeshMedium}
-                srcSet={`${PrathmeshSmall} 300w, ${PrathmeshMedium} 700w, ${PrathmeshLarge} 1100w`}
+                alt='Pranav'
+                src={Pranav}
+                srcSet={`${Pranav} 300w, ${Pranav} 700w, ${Pranav} 1100w`}
               />
             </figure>
           </div>
