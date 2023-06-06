@@ -5,7 +5,6 @@ import Fade from 'react-reveal/Fade';
 import { Pranav } from 'images/Pranav';
 import { Link } from 'components';
 import Skills from './Skills';
-import SocialLinks from '../Contact/SocialLinks';
 
 export default function About() {
   return (
@@ -73,11 +72,6 @@ export default function About() {
           <Skills />
         </Fade>
 
-        <Fade bottom>
-          <div className={classes.socialLinks}>
-            <SocialLinks />
-          </div>
-        </Fade>
       </div>
     </section>
   );

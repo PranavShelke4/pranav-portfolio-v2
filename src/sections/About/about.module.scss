@@ -36,10 +36,11 @@
     .image {
       display: inline-block;
       position: absolute;
+      margin: auto;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      max-height: 95%;
+      height: 95%;
       align-self: center;
       object-fit: contain;
       border-radius: $radius-small;
@@ -62,12 +63,6 @@
         border: 2px solid $color-primary-dark;
         box-shadow: 0 0 1rem $color-primary-dark;
       }
-    }
-  }
-
-  .socialLinks {
-    @include respond(phone) {
-      text-align: center;
     }
   }
 }

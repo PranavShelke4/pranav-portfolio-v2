@@ -1,13 +1,9 @@
-// import {
-//   friendsDriveImageSmall,
-//   friendsDriveImageLarge,
-//   friendsDriveLogo
-// } from '../../images/DigitalPeerSupport';
-
-import { ITMSImg, ITMSLogo } from '../../images/ITMS';
+import { TEDxVITimg, TEDxVITLogo } from '../../images/TEDxVIT';
 import { YashdentalImg, YCDCLogo } from '../../images/Ycdental';
 import { PeerTECHimg, PeerTECHLogo } from '../../images/PeerTECH';
-import { TEDxVITimg, TEDxVITLogo } from '../../images/TEDxVIT';
+import { ITMSImg, ITMSLogo } from '../../images/ITMS';
+import { DigitalPeerSupportImg, DigitalPeerSupportLogo } from '../../images/DigitalPeerSupport';
+import { OliLoliLookImg, OliLoliLookLogo  } from '../../images/OliLoliLook';
 
 
 const TEDxVIT = {
@@ -63,7 +59,7 @@ const ycdental = {
 
 const PeerTech = {
   title: 'PeerTECH - Admin Dashbord',
-  type: 'Freelance Dashbord project',
+  type: 'Freelance project',
   logo: PeerTECHLogo,
   images: {
     light: { small: PeerTECHimg, large: PeerTECHimg },
@@ -107,27 +103,49 @@ const ITMS = {
 };
 
 
-// const DigitalPeerSupport = {
-//   title: 'Friend Drive - Resources storing app',
-//   type: 'Featured project',
-//   logo: friendsDriveLogo,
-//   images: {
-//     light: { small: friendsDriveImageSmall, large: friendsDriveImageLarge },
-//     dark: { small: friendsDriveImageSmall, large: friendsDriveImageLarge }
-//   },
-//   description: 'A fun and easy to use drive space where you can store photos.',
-//   features: [
-//     'Easy SignIn with Google',
-//     'Upload multiple Photos',
-//     'Create new Album',
-//     'Delete Photos / Albums',
-//     'Download Photos'
-//   ],
-//   techStack: ['React JS', 'Firebase', 'Material UI', 'Redux'],
-//   repo: 'https://github.com/Prathmesh-Dhatrak/friend-drive'
-// };
+const DigitalPeerSupport = {
+  title: 'Digital Peer Support - Trust',
+  type: 'Freelance Project',
+  logo: DigitalPeerSupportLogo,
+  images: {
+    light: { small: DigitalPeerSupportImg, large: DigitalPeerSupportImg },
+    dark: { small: DigitalPeerSupportImg, large: DigitalPeerSupportImg }
+  },
+  description: 'Digital Peer Support is a diverse team working together to improve digital peer support programs.',
+  features: [
+    'Easy SignIn',
+    'Upload multiple Photos',
+    'Trainers, Course Registration',
+    'Memebership Subscription'
+  ],
+  techStack: ['WordPress'],
+  link: 'https://digitalpeersupport.org/'
+};
 
 
-const data = [TEDxVIT, ycdental, PeerTech, ITMS];
+const OliLoliLook = {
+  title: 'Oli Loli Look - E-commerce Website',
+  type: 'Freelance Project',
+  logo: OliLoliLookLogo,
+  images: {
+    light: { small: OliLoliLookImg, large: OliLoliLookImg },
+    dark: { small: OliLoliLookImg, large: OliLoliLookImg }
+  },
+  description: 'Oli Loli Look is a website offering childrens clothing based in Poland',
+  features: [
+    'User Login and Registration System',
+    'Search products',
+    'Admin Dashboard',
+    'Multiple Image Uploads',
+    'Secure Payment',
+    'Cart, Wishlist Option',
+    'Product review option'
+  ],
+  techStack: ['WordPress'],
+  link: 'http://olilolilook.com/'
+};
+
+
+const data = [TEDxVIT, ycdental, PeerTech, ITMS, OliLoliLook, DigitalPeerSupport];
 export default data;
 
