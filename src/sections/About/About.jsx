@@ -19,7 +19,7 @@ export default function About() {
                 <span role='img' aria-label='wave emoji'>
                   👋
                 </span>{' '}
-                Hello, world! I am Prathmesh, a full-stack engineer from Pune, India.
+                Hello, world! I am Pranav, a full-stack engineer from Pune, India.
               </p>
               <p className={classes.description}>
                 I love to design and code{' '}
@@ -30,11 +30,19 @@ export default function About() {
                 testable code.
               </p>
               <p className={classes.description}>
+                I'm completed my diploma{' '}
+                <span role='img' aria-label='code graduate'>
+                  👨‍🎓
+                </span>{' '}
+                in Information Technology Engineering at the{' '}
+                <Link to='https://www.gpawasari.ac.in/'>Government Polytechnic Awasari (KH), Pune. </Link>
+              </p>
+              <p className={classes.description}>
                 Currently, I'm pursuing my undergrads{' '}
                 <span role='img' aria-label='code graduate'>
                   👨‍🎓
                 </span>{' '}
-                in Computer Science Engineering at the{' '}
+                in Instrumentation and Control Engineering at the{' '}
                 <Link to='https://www.vit.edu/'>Vishwakarma Institute of Technology, Pune</Link>. I love working in and
                 as a team. I'm always looking for opportunities to learn and grow.
               </p>
