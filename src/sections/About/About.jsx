@@ -37,7 +37,7 @@ export default function About() {
                 <Link to='https://www.gpawasari.ac.in/'>Government Polytechnic Awasari (KH), Pune. </Link>
               </p>
               <p className={classes.description}>
-                Currently, I'm pursuing my BTech{' '}
+                Currently, I'm pursuing my B.Tech{' '}
                 <span role='img' aria-label='code graduate'>
                   👨‍🎓
                 </span>{' '}
