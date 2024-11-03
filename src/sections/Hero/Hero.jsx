@@ -24,6 +24,11 @@ export default function Hero() {
           </span>
           .
         </h2>
+        <h2 className={classes.info}>
+         New Portfolio on <a href='https://www.pranavshelke.tech/'>pranavshelke.tech</a>
+        </h2>
+
+
       </div>
 
       <div role='img' className={classes.waterMark}>
